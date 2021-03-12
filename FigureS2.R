@@ -31,10 +31,7 @@ fin <- rbind(mat[1:4,], mat[9:12,],
             mat[17:20,], mat[25:28,],
             mat[21:24,], mat[29:32,])
 ### save info for main in plotting
-m <- c(expression('pA'^'-39'*'A'^'+69'*'RJ-'),
-      expression('pA'^'-39'*'A'^'+69'*'RJ+'),
-      expression('pA'^'-39'*'RJ-'),
-      expression('pA'^'-39'*'RJ+'))
+m <- c("p69A.RJ-", "p69A.RJ+", "p69C.RJ-", "p69C.RJ+")
 setwd(root.path)
 ### plotting
 pdf(file = "FigureS2.pdf", width = 8, height = 8)
