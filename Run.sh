@@ -7,5 +7,8 @@ Rscript Figure1.R
 printf "\tFigure3\n"
 Rscript Figure3.R
 
-printf "\tFigureS2\n"
-Rscript FigureS2.R
+printf "\tFigureA1\n"
+Rscript FigureA1.R
+
+printf "\tFigureA2\n"
+Rscript FigureA2.R

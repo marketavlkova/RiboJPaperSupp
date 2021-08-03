@@ -34,7 +34,7 @@ fin <- rbind(mat[1:4,], mat[9:12,],
 m <- c("p69A.RJ-", "p69A.RJ+", "p69C.RJ-", "p69C.RJ+")
 setwd(root.path)
 ### plotting
-pdf(file = "FigureS2.pdf", width = 8, height = 8)
+pdf(file = "FigureA2.pdf", width = 8, height = 8)
 par(mfcol = c(2,2))
 
 n <- 1

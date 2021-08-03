@@ -133,7 +133,7 @@ par(mfcol = c(1, 2),
         c(1:3), bm0[3,] + bs0[3,],
         length = 0.05, angle = 90, code = 3, col = "saddlebrown")
   axis(side = 1, at = 1:3, labels = c("glucose", "galactose", "lactose"))
-  text(0.5, 5.25, "A)", cex = 1.5)
+  text(0.5, 5.25, "a)", cex = 1.5)
   ### with RiboJ
   plot(c(1:3), am1[1,], xaxt = "n", pch = 16,
         ylim = c(2, 5), xlim = c(0.75, 3.25), type = "b",
@@ -163,7 +163,7 @@ par(mfcol = c(1, 2),
         c(1:3), bm1[3,] + bs1[3,],
         length = 0.05, angle = 90, code = 3, col = "saddlebrown")
   axis(side = 1, at = 1:3, labels = c("glucose", "galactose", "lactose"))
-  text(0.5, 5.25, "B)", cex = 1.5)
+  text(0.5, 5.25, "b)", cex = 1.5)
   legend("topleft", legend = strains,
           pch = 16, col = c("magenta", "green", "saddlebrown"),
           title = "Strains")
